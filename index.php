@@ -30,11 +30,18 @@ $aluno->insert();
 echo $aluno;
 */
 
+/* UPDATE
 $usuario = new Usuarios();
 $usuario->loadById(8);
-
 $usuario->update("professor","123444");
+echo $usuario;
+*/
 
+/*DELETE */
+
+$usuario = new Usuarios();
+$usuario->loadById(7);
+$usuario->delete();
 echo $usuario;
 
  ?>
